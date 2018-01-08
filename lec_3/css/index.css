@@ -1,0 +1,36 @@
+  body {height: 100vh}
+  #container {
+    width: 100%; /* Ширина макета */
+    margin: 0 auto;  
+    background: #D3D3D3; /* Цвет колонок */ 
+    height: 100%; 
+   }
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #DEB887; /* Цвет фона шапки */
+   }
+   #nav, #aside {
+    float: left; width: 20%; padding: 5px;
+   }
+   #content {
+   	text-align: center;
+    background: #FAFAD2;
+    margin: 0 20%; /* Ширина колонок */
+    padding: 10px;
+    height: 78%
+   }
+   #aside {
+    float: right; padding-left: -15px;
+   }
+   h2 { margin: 0 0 1em; }
+   #footer { 
+   	clear: both;
+    background: #DEB887;
+    position: relative; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
