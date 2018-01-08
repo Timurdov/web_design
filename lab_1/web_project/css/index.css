@@ -1,0 +1,14 @@
+		body {
+			background-color: #1649AD;
+			padding: 10px;
+		}
+		header {
+			font-size: x-large;
+			color: #ffffff;
+			padding-bottom: 50px;
+		}
+		footer {
+			font-size: large;
+			color: #eeee00;
+			padding-top: 50px;
+		}
